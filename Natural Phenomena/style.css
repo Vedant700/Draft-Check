@@ -1,0 +1,724 @@
+/* poppins can be used to display the information on the volcano */
+:root{
+    --yellow:#FEE715FF;
+    --black: #101820FF;
+    --orange2: #AD231F;
+    --orange: #f80901;
+    --blackforbody: #ddbea9;
+    --yellowfortext: #FDCB50;
+    --newblue: #14213D;
+    --newtext: #E5E5E5;
+    
+}
+body{
+    background:var(--newblue);
+    margin: 0;
+    /* padding: 0;check if needed or not */
+    font-family: Dubai;
+}
+
+
+
+
+.main-volcano-text{
+    text-decoration: none;
+    font-weight: 500 ;/*ranges from 100 to 700*/
+    color: var(--yellow);
+    font-size: 1.2em;
+}
+span{
+    color: var(--orange);
+    font-weight: bold ;
+}
+
+section{
+    padding: 5em 2em;
+
+}
+.front-text{
+    text-align: center;
+    font-weight: bold;
+    
+    
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top: .2em;
+
+}
+.volcano-text{
+    position: absolute;
+    right: -650px;
+    top: 100px;
+    color: var(--yellow);
+    letter-spacing: .3em;
+    font-size: 3.5em;
+    
+}
+
+
+
+.front-text.span{
+    color: var(--orange);
+    
+}
+
+.hero{
+    position: absolute;
+    top:80px;
+    left:700px;
+}
+.backimg{
+    top:0px;
+    left:0px;
+}
+.video1{
+    position:absolute;
+    top:150px;
+    left:100px;
+    border: 3px solid var(--orange);
+    
+}
+.video2{
+    position:absolute;
+    top:150px;
+    left:1450px;
+    border: 3px solid var(--orange);
+    
+}
+
+.what-are-volcanoes-container{
+
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.what-are-volcanoes-text{
+    /* padding-top: 1em; */
+    background: var(--newblue);
+    color: var(--newtext);
+    color: white;
+    text-align: center;
+    background: --newblue;
+}
+
+.did-you-know-left{
+    position: absolute;
+    top:1185px;
+    left: 110px; 
+    border-radius: 20%;
+    letter-spacing: 2px;
+    font-size: 1.35em;
+    color: var(--yellow);
+    
+}
+
+.fact-left-content{
+    padding: 2em 2.5em;
+    border: 3px solid white;
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+    color:var(--newtext);
+    font-weight: 400;
+    background-color: var(--newblue);
+}
+.vulcanimg{
+    width: 150px;
+    /* position: absolute; */
+    border: 3px solid var(--newtext);
+}
+.did-you-know-right{
+    position: absolute;
+    top:1185px;
+    right: 120px; 
+    border-radius: 20%;
+    letter-spacing: 2px;
+    font-size: 1.35em;
+    color: var(--yellow);
+
+}
+.maunaloa{
+    width:250px;
+    border: 3px solid var(--newblue);
+    top: 1300px;
+    
+    
+}
+.fact-right-content{
+    padding: 2em 2.5em;
+    border: 3px solid white;
+    position: absolute;
+    top: 1250px;
+    right: 50px;
+    color:var(--newtext);
+    font-weight: 400;
+    background-color: var(--newblue);
+}
+.right-fact-text{
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+.navbar{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    font-size: 20px;
+}
+
+.home{
+    position: absolute;
+    text-decoration: none;
+    top: 17px;
+    right: 410px;
+    font-size: 25px;
+    color: wheat;
+    font-family: Dubai;
+    border: 2px solid var(--blackforbody);
+    border-radius: 20%;
+}
+.content{
+    position: absolute;
+    text-decoration: none;
+    top: 17px;
+    right: 265px;
+    font-size: 25px;
+    color: wheat;
+    font-family: Dubai;
+    border: 2px solid var(--blackforbody);
+    border-radius: 20%;
+}
+.index1{
+    text-decoration: none;
+    position: absolute;
+    top: 17px;
+    right: 150px;
+    font-size: 25px;
+    color: wheat;
+    font-family: Dubai;
+    border: 2px solid var(--blackforbody);
+    border-radius: 20%;
+}
+
+.home:hover, home.active{
+background: var(--blackforbody);
+color: var(--black);
+}
+
+.content:hover, home.active{
+background: var(--blackforbody);
+color: var(--black);
+}
+
+.index1:hover, home.active{
+background: var(--blackforbody);
+color: var(--black);
+}
+
+
+.volcano-what-video{
+    position: absolute;
+    top: 1300px;
+    left: 700px;
+    border: 3px solid var(--newtext);
+}
+.text-howarevolcanoesformed{
+    padding-top: 2em;
+    background: var(--newblue);
+    font-size: 1.7em;
+    font-family: Verdana;
+    line-height: 1.8;
+    color: white;
+    text-align: center;
+}
+.constructive-plate-boundary-volcanoes{
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.cpdimg{
+    position: absolute;
+    top: 2000px;
+    left: 800px;
+    border: 4px solid black;
+}
+.constructive-boundaries{
+    padding-top: 2em;
+    top: 2150px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.constructive-boundaries-img{
+    position: absolute;
+    top: 2400px;
+    left: 840px;
+    border: 4px solid black;
+}
+.destructive{
+    padding-top: 2em;
+    top: 2600px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.destructive-plate{
+    position: absolute;
+    top: 2860px;
+    left: 830px;
+    border: 4px solid black;
+    width: 350px;
+}
+.conservative{
+    padding-top: 2em;
+    top: 3100px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.conservative-img{
+    position: absolute;
+    left: 800px;
+    border: 4px solid black;
+    width: 350px;
+}
+.dots{
+    opacity: 0.6;
+    width: 100px;
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+}
+.dots2{
+    opacity: 0.4;
+    width: 100px;
+    position: absolute;
+    top: 1920px;
+    right: 170px;  
+}
+.dots3{
+    opacity: 0.2;
+    width: 110px;
+    position: absolute;
+    top: 2350px;
+    right: 350px;  
+}
+.dots4{
+    opacity: 0.1;
+    width: 150px;
+    position: absolute;
+    top: 2600px;
+    left: 10px;  
+} 
+.dots5{
+    opacity: 0.3;
+    width: 130px;
+    position: absolute;
+    top: 2850px;
+    right: 70px;  
+}
+.dots6{
+    opacity: 0.2;
+    width: 120px;
+    position: absolute;
+    top: 3250px;
+    left: 500px;  
+}
+.dots7{
+    opacity: 0.3;
+    width: 110px;
+    position: absolute;
+    top: 3650px;
+    right: 200px; 
+}
+.dots8{
+    opacity: 0.1;
+    width: 170px;
+    position: absolute;
+    top: 3850px;
+    left: 50px; 
+}
+.dots9{
+    opacity: 0.1;
+    width: 130px;
+    position: absolute;
+    top: 4250px;
+    right: 50px; 
+}
+.dots10{
+    opacity: 0.1;
+    width: 115px;
+    position: absolute;
+    top: 4800px;
+    left: 500px; 
+}
+.dots11{
+    opacity: 0.2;
+    width: 135px;
+    position: absolute;
+    top: 5000px;
+    right: 100px; 
+}
+.dots12{
+    opacity: 0.1;
+    width: 180px;
+    position: absolute;
+    top: 5750px;
+    left: 100px; 
+}
+.dots13{
+    opacity: 0.1;
+    width: 150px;
+    position: absolute;
+    top: 6000px;
+    right: 170px; 
+}
+.dots14{
+    opacity: 0.1;
+    width: 110px;
+    position: absolute;
+    top: 6400px;
+    left: 300px; 
+}
+.dots15{
+    opacity: 0.1;
+    width: 160px;
+    position: absolute;
+    top: 7250px;
+    left: 50px; 
+}
+.dots16{
+    opacity: 0.1;
+    width: 140px;
+    position: absolute;
+    top: 6700px;
+    right: 250px; 
+}
+.dots17{
+    opacity: 0.1;
+    width: 125px;
+    position: absolute;
+    top: 7950px;
+    right: 100px; 
+}
+.what-are-the-categories-of-volcano{
+    top: 3550px;
+    left: 700px;
+    position: absolute;
+    padding-top: 2em;
+    background: var(--newblue);
+    font-size: 1.7em;
+    font-family: Verdana;
+    line-height: 1.8;
+    color: white;
+    
+}
+.active-volcano{
+    top: 3700px;
+    left: 380px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+
+ .dormant-volcano{
+    top: 3750px;
+    left: 350px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+
+.extinct-volcano{
+    top: 3800px;
+    left: 350px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.categories-img{
+    width: 300px;
+    position: absolute;
+    top: 3900px;
+    left: 790px;
+    border: 4px solid black;
+}
+
+.types-header{
+    top: 4100px;
+    left: 700px;
+    position: absolute;
+    padding-top: 2em;
+    background: var(--newblue);
+    font-size: 1.7em;
+    font-family: Verdana;
+    line-height: 1.8;
+    color: white; 
+}
+
+
+
+.cinder-cones{
+    padding-top: 2em;
+    top: 4200px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.cinderimage{
+    width: 300px;
+    position: absolute;
+    top: 4400px;
+    left: 730px;    
+}
+.composite-volcano{
+    padding-top: 2em;
+    top: 4700px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.composite-image{
+    
+    position: absolute;
+    top: 4900px;
+    left: 730px;
+}
+.shield-volcano{
+    padding-top: 2em;
+    top: 5200px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.shield-image{
+    position: absolute;
+    top: 5400px;
+    left: 730px;
+    
+}
+.lava-domes{
+    padding-top: 2em;
+    top: 5700px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.lava-domes-image{
+    position: absolute;
+    top: 5900px;
+    left: 750px;
+}
+.facttext{
+    top: 7820px;
+    left: 820px;
+    position: absolute;
+    padding-top: 2em;
+    background: var(--newblue);
+    font-size: 1.7em;
+    font-family: Verdana;
+    line-height: 1.8;
+    color: white; 
+}
+.fact-one{
+    padding: 3em 2em;
+    border: 3px solid white;
+    position: absolute;
+    top: 7950px;
+    left: 50px;
+    color:white;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color: var(--newblue);
+    text-align: center;
+   
+}
+.fact-two{
+    padding: 4.5em 2em;
+    border: 3px solid white;
+    position: absolute;
+    top: 7950px;
+    left: 550px;
+    color:white;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color: var(--newblue);
+    text-align: center;
+}
+.fact-three{
+    padding: 6.1em 1.4em;
+    border: 3px solid white;
+    position: absolute;
+    top: 7950px;
+    left: 1000px;
+    color:white;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color: var(--newblue);
+    text-align: center;
+}
+.fact-four{
+    padding: 5.2em 1.5em;
+    border: 3px solid white;
+    position: absolute;
+    top:7950px;
+    left: 1450px;
+    color:white;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color: var(--newblue);
+    text-align: center;
+}
+.types-of-volcanic-eruptions-text{
+    top: 6150px;
+    left: 800px;
+    position: absolute;
+    padding-top: 2em;
+    background: var(--newblue);
+    font-size: 1.7em;
+    font-family: Verdana;
+    line-height: 1.8;
+    color: white; 
+}
+
+.magmatic-eruptions{
+    padding-top: 2em;
+    top: 6300px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.magmatic-img{
+ 
+    width: 550px;
+    position: absolute;
+    top: 6630px;
+    left: 760px;    
+}
+.phreatomagmatic-eruptions{
+    padding-top: 2em;
+    top: 6950px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.phreatomagmatic-img{
+    width: 450px;
+    position: absolute;
+    top: 7100px;
+    left: 760px;    
+}
+.phreatic-eruptions{
+    padding-top: 2em;
+    top: 7330px;
+    position: absolute;
+    background: var(--newblue);
+    color: var(--newtext);
+    text-align: center;
+    padding-right:5em ;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    font-size: 1.1em;
+    font-family: Verdana;
+    line-height: 1.8;
+}
+.phreatic-img{
+    width: 350px;
+    position: absolute;
+    top: 7490px;
+    left: 750px;
+}
